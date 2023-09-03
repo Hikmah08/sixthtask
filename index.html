@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Basketball Score Counter</title>
+</head>
+<body>
+    <div class="home">
+        <div class="container">
+            <div class="team left">
+              <h2>Team A</h2>
+              <p id="scoreA" class="score">0</p>
+              <button id="increase" class="btn" onclick="incrementPlusA()">+</button>
+              <button id="double" class="btn" onclick="doubleIncrement()">2 Points</button>
+              <button id="triple" class="btn" onclick="tripleIncrement()">4 Points</button>
+              <button id="save" class="btn" onclick="save()">Save</button>
+              <p id="saveAScore" class="score"> </p>
+            </div>
+            <div class="team right">
+              <h2>Team B</h2>
+              <p id="scoreB" class="score">0</p>
+              <button id="increase" class="btn" onclick="incrementPlusB()">+</button>
+              <button id="doubleB" class="btn" onclick="doubleIncrementB()">2 Points</button>
+              <button id="tripleB" class="btn" onclick="tripleIncrementB()">4 Points</button>
+              <button id = "secondSave" class="btn" onclick="secondSave()">Save</button>
+              <p id="saveBScore" class="score"> </p>
+            </div>
+          </div>
+    </div>
+  
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
